@@ -11,10 +11,12 @@
 <body>
 <h1 class="text-center my-4">Crud Application PHP/MYSQL</h1>
     <div class="container">
-        <button class="btn btn-primary my-5"><a href="User.php" class="text-light">Aggiungi Utente</a></button>
+        <button class="btn btn-primary my-5">
+            <a href="User.php" class="text-light">Aggiungi Utente</a>
+        </button>
     </div>
     <table class="table caption-top">
-        <caption>List of users</caption>
+    <caption class="text-center">Lista di utenti</caption>
         <thead>
             <tr>
                 <th scope="col">#</th>
