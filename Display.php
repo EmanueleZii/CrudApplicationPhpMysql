@@ -16,7 +16,7 @@
         </button>
     </div>
     <table class="table caption-top">
-    <caption class="text-center">Lista di utenti</caption>
+    <caption class="text-center text-dark">Lista di utenti</caption>
         <thead>
             <tr>
                 <th scope="col">#</th>
