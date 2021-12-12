@@ -16,6 +16,7 @@ include "Connect.php";
   <body>
     <h1 class="text-center my-4">Crud Application PHP/MYSQL</h1>
      <div class="container my-5">
+        <h3>Registra l' utente:</h3>
         <form method="post" action="insert.php">
                 <div class="form-group">
                     <label class="form-label">Name</label>
