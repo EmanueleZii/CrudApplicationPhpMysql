@@ -31,7 +31,7 @@
          <?php
           include "Connect.php";  
           @$sql = "SELECT `id`,`name`,`email`,`mobile`,`password` FROM `crud`";
-          @$stmt = $conn->query($sql);
+          @$stmt = $conn->query($sql) or die($conn->error);
            while($row = $stmt->fetch_assoc()) 
            {
                @$id = $row['id'];
